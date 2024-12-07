@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bai 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="container mx-auto mt-10">
+    <h1 class="text-xl font-bold mb-2">Lương nhân viên 1h (usd)</h1>
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-md p-2 mb-4"
+      id="tienluong1h"
+      placeholder="Tiền Lương 1h"
+    />
+    <h1 class="text-xl font-bold mb-2">Số giờ làm</h1>
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-md p-2 mb-4"
+      id="sogiolam"
+      placeholder="Số giờ đã làm"
+    />
+    <button
+      onclick="tinhTien()"
+      class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
+    >
+      Tính tiền
+    </button>
+    <div id="result" class="mt-4"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
