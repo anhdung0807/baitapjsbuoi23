@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="container mx-auto p-4">
+    <p class="mt-5 font-bold text-xl">
+      Viết chương trình nhập vào 5 số thực. Tính giá trị trung bình của 5 số
+      thực
+    </p>
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-lg mt-3 p-2"
+      id="sothuc1"
+      placeholder="Số thứ 1"
+    />
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-lg mt-3 p-2"
+      id="sothuc2"
+      placeholder="Số thứ 2"
+    />
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-lg mt-3 p-2"
+      id="sothuc3"
+      placeholder="Số thứ 3"
+    />
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-lg mt-3 p-2"
+      id="sothuc4"
+      placeholder="Số thứ 4"
+    />
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-lg mt-3 p-2"
+      id="sothuc5"
+      placeholder="Số thứ 5"
+    />
+    <button
+      onclick="tinhTrungBinh()"
+      class="bg-blue-500 text-white font-bold py-2 px-4 rounded mt-3"
+    >
+      Tính Ngay
+    </button>
+
+    <div id="result" class="mt-4 text-lg font-semibold"></div>
+
+    <!-- JS -->
+    <script src="./index.js"></script>
+  </body>
+</html>
