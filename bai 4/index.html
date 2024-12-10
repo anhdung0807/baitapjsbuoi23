@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai4</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="container mx-auto mt-10 p-4">
+    <p class="text-xl font-bold">
+      Viết phương trình tính diện tích và chu vi hình chữ nhật
+    </p>
+    <h2 class="text-lg font-bold mt-3">Nhập chiều dài</h2>
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-lg mt-3 p-2"
+      id="chieudai"
+      placeholder="Nhập chiều dài"
+    />
+    <h2 class="text-lg font-bold mt-3">Nhập chiều rộng</h2>
+    <input
+      type="number"
+      class="block w-full border border-gray-300 rounded-lg mt-3 p-2"
+      id="chieurong"
+      placeholder="Nhập chiều rộng"
+    />
+    <button
+      onclick="tinhToan()"
+      class="bg-blue-500 text-white font-bold py-2 px-4 rounded mt-3"
+    >
+      Tính Toán
+    </button>
+    <div id="result" class="mt-4 text-lg font-semibold"></div>
+    <!-- JS -->
+    <script src="./index.js"></script>
+  </body>
+</html>
